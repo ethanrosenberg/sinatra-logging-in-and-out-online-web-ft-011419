@@ -1,8 +1,9 @@
 class CreateUsers < ActiveRecord::Migration[5.1]
   def up
-    create_table :dogs do |t|
-      t.string :name
-      t.string :breed
+    create_table :users do |t|
+      t.string :username
+      t.string :password
+      t.integer :
     end
   end
 end
